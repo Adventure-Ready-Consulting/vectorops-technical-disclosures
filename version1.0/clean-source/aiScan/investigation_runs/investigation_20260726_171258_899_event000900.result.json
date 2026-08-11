@@ -1,0 +1,61 @@
+{
+  "responseType": "investigation-ai",
+  "createdAtUtc": "2026-07-26T23:12:42Z",
+  "model": "gpt-4.1-mini-2025-04-14",
+  "result": {
+    "person": {
+      "state": "AiNotPerson",
+      "confidence": 0.95,
+      "reason": "No visible human body parts or clothing; candidate is a small red object on natural terrain"
+    },
+    "fabric": {
+      "state": "AiNotFabric",
+      "confidence": 0.9,
+      "reason": "No visible fabric or human-made fabric-like material in the crop"
+    },
+    "anomaly": {
+      "state": "AiAnomaly",
+      "confidence": 0.6,
+      "reason": "Small bright red object is visually out-of-place against natural terrain and may warrant review"
+    },
+    "colors": [
+      "green",
+      "brown",
+      "red",
+      "gray"
+    ],
+    "primaryColor": "green",
+    "objectType": "unknown",
+    "sarRelevance": "medium",
+    "environment": "open field",
+    "visibility": "clear",
+    "pose": "unknown",
+    "imageQuality": "sharp",
+    "falsePositiveType": "none",
+    "notPersonReason": "Candidate is a small bright red object on natural terrain, no human features visible",
+    "possibleEvidence": true,
+    "evidenceType": "unknown",
+    "evidenceConfidence": 0.6,
+    "recommendedForReview": true,
+    "summary": "Small bright red object on natural terrain, no visible person or fabric, possible SAR evidence",
+    "investigationMatch": false,
+    "investigationConfidence": 0.3,
+    "investigationReason": "No visible person or fabric; small red object is out-of-place but insufficient evidence for person",
+    "cropAnalysis": {
+      "helpful": true,
+      "confidence": 0.7,
+      "summary": "Crop shows a small red object on natural terrain with no visible human features or fabric"
+    },
+    "contextAnalysis": {
+      "helpful": true,
+      "confidence": 0.8,
+      "summary": "Full frames show consistent natural terrain with no visible person or fabric; red object persists but no clear human association"
+    },
+    "primaryEvidenceSource": "detection_zone",
+    "cropContribution": 0.7,
+    "contextContribution": 0.3,
+    "bodyPositionClassification": "unknown",
+    "bodyPositionConfidence": 0.0,
+    "bodyPositionReason": "No visible human body or shape to classify position"
+  }
+}

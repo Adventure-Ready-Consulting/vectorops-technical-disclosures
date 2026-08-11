@@ -1,0 +1,73 @@
+{
+  "responseType": "investigation-ai",
+  "createdAtUtc": "2026-07-27T01:22:09Z",
+  "model": "gpt-4.1-mini-2025-04-14",
+  "result": {
+    "person": {
+      "state": "AiNotPerson",
+      "confidence": 0.95,
+      "reason": "No visible human body parts or clothing; candidate is a small red object on terrain"
+    },
+    "fabric": {
+      "state": "AiNotFabric",
+      "confidence": 0.9,
+      "reason": "No visible fabric or human-made fabric-like material in the crop"
+    },
+    "anomaly": {
+      "state": "AiAnomaly",
+      "confidence": 0.7,
+      "reason": "Small isolated bright red object on natural terrain, visually out-of-place"
+    },
+    "colors": [
+      "green",
+      "brown",
+      "red",
+      "gray"
+    ],
+    "primaryColor": "green",
+    "objectType": "unknown",
+    "sarRelevance": "medium",
+    "environment": "open field",
+    "visibility": "clear",
+    "pose": "unknown",
+    "imageQuality": "sharp",
+    "falsePositiveType": "none",
+    "notPersonReason": "Candidate is a small red object on natural terrain, no human features visible",
+    "possibleEvidence": true,
+    "evidenceType": "unknown",
+    "evidenceConfidence": 0.6,
+    "recommendedForReview": true,
+    "summary": "Small bright red object on natural terrain may be SAR-relevant anomaly despite no visible person or fabric",
+    "investigationMatch": true,
+    "investigationConfidence": 0.6,
+    "investigationReason": "Small bright red object visible in detection zone crop and full frames is unusual in natural terrain and may indicate human-made item or clothing; no person visible",
+    "cropAnalysis": {
+      "helpful": true,
+      "confidence": 0.7,
+      "summary": "Crop shows a small bright red object on natural terrain, no person or fabric visible"
+    },
+    "contextAnalysis": {
+      "helpful": true,
+      "confidence": 0.6,
+      "summary": "Full frames confirm the persistence of the small red object on open field terrain with no visible person or fabric"
+    },
+    "primaryEvidenceSource": "both",
+    "cropContribution": 0.6,
+    "contextContribution": 0.4,
+    "bodyPositionClassification": "unknown",
+    "bodyPositionConfidence": 0.0,
+    "bodyPositionReason": "No visible human shape or body parts in crop or full frames",
+    "investigationRegion": {
+      "found": true,
+      "label": "anomaly",
+      "confidence": 0.7,
+      "xMin": 480,
+      "yMin": 520,
+      "xMax": 510,
+      "yMax": 550,
+      "usesOriginalDetection": true,
+      "originalDetectionReason": "Original candidate was a small bright red object in the detection zone crop",
+      "reason": "Small bright red object visible in detection zone crop and full frames, unusual in natural terrain"
+    }
+  }
+}

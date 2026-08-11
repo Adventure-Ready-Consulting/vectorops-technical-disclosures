@@ -1,0 +1,42 @@
+{
+  "responseType": "investigation-ai",
+  "createdAtUtc": "2026-07-26T23:13:40Z",
+  "model": "gpt-4.1-mini-2025-04-14",
+  "result": {
+    "person": {
+      "state": "AiNotPerson",
+      "confidence": 0.95,
+      "reason": "No visible human body parts or clothing; candidate is a small red object on terrain"
+    },
+    "fabric": {
+      "state": "AiNotFabric",
+      "confidence": 0.9,
+      "reason": "No visible fabric or gear; red object is too small and isolated to confirm as fabric"
+    },
+    "anomaly": {
+      "state": "AiAnomaly",
+      "confidence": 0.7,
+      "reason": "Small bright red object is visually out-of-place against natural terrain and may warrant review"
+    },
+    "colors": [
+      "green",
+      "brown",
+      "gray",
+      "red"
+    ],
+    "primaryColor": "green",
+    "objectType": "unknown",
+    "sarRelevance": "medium",
+    "environment": "open field",
+    "visibility": "clear",
+    "pose": "unknown",
+    "imageQuality": "sharp",
+    "falsePositiveType": "rock",
+    "notPersonReason": "Candidate is a small red rock or object on natural terrain, no human features visible",
+    "possibleEvidence": true,
+    "evidenceType": "unknown",
+    "evidenceConfidence": 0.3,
+    "recommendedForReview": true,
+    "summary": "Small isolated red object on natural terrain with no visible human features, possible SAR clue"
+  }
+}

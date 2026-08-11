@@ -1,0 +1,61 @@
+{
+  "responseType": "investigation-ai",
+  "createdAtUtc": "2026-08-05T19:19:59Z",
+  "model": "gpt-4.1-mini-2025-04-14",
+  "result": {
+    "person": {
+      "state": "AiNotPerson",
+      "confidence": 0.95,
+      "reason": "No visible human body parts or clear clothing; candidate is a small red object on natural terrain"
+    },
+    "fabric": {
+      "state": "AiNotFabric",
+      "confidence": 0.9,
+      "reason": "No visible fabric or human-made fabric-like material in the candidate crop"
+    },
+    "anomaly": {
+      "state": "AiAnomaly",
+      "confidence": 0.6,
+      "reason": "Small bright red object is visually out-of-place against natural terrain and may warrant review"
+    },
+    "colors": [
+      "green",
+      "brown",
+      "red",
+      "gray"
+    ],
+    "primaryColor": "green",
+    "objectType": "unknown",
+    "sarRelevance": "medium",
+    "environment": "open field",
+    "visibility": "clear",
+    "pose": "unknown",
+    "imageQuality": "sharp",
+    "falsePositiveType": "none",
+    "notPersonReason": "Candidate is a small red object on natural terrain, no human features visible",
+    "possibleEvidence": true,
+    "evidenceType": "unknown",
+    "evidenceConfidence": 0.6,
+    "recommendedForReview": true,
+    "summary": "Small bright red object on natural terrain, no person or fabric visible but may be SAR-relevant anomaly",
+    "investigationMatch": true,
+    "investigationConfidence": 0.6,
+    "investigationReason": "No person or fabric detected but the small bright red object is an out-of-place anomaly that could be SAR evidence and should be reviewed",
+    "cropAnalysis": {
+      "helpful": true,
+      "confidence": 0.7,
+      "summary": "Crop shows a small bright red object on natural terrain, no person or fabric visible"
+    },
+    "contextAnalysis": {
+      "helpful": true,
+      "confidence": 0.6,
+      "summary": "Full frames show persistent small red object in open field with no visible human or fabric nearby"
+    },
+    "primaryEvidenceSource": "both",
+    "cropContribution": 0.6,
+    "contextContribution": 0.4,
+    "bodyPositionClassification": "unknown",
+    "bodyPositionConfidence": 0.0,
+    "bodyPositionReason": "No visible human body or shape to classify position"
+  }
+}

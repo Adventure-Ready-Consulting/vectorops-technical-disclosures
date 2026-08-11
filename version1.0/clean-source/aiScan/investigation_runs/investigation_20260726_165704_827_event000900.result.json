@@ -1,0 +1,54 @@
+{
+  "responseType": "investigation-ai",
+  "createdAtUtc": "2026-07-26T22:56:43Z",
+  "model": "gpt-4.1-mini-2025-04-14",
+  "result": {
+    "person": {
+      "state": "AiNotPerson",
+      "confidence": 0.95,
+      "reason": "No thermal heat detected in candidate box; no human thermal signature or geometry visible."
+    },
+    "fabric": {
+      "state": "AiNotFabric",
+      "confidence": 0.9,
+      "reason": "Thermal imagery shows no heat signature; no fabric or gear visible in thermal context."
+    },
+    "anomaly": {
+      "state": "AiNotAnomaly",
+      "confidence": 0.9,
+      "reason": "Candidate box shows zero thermal fill and no hot region; no SAR-relevant thermal anomaly detected."
+    },
+    "colors": [
+      "thermal white/hot"
+    ],
+    "primaryColor": "thermal white/hot",
+    "objectType": "warm ground",
+    "sarRelevance": "low",
+    "environment": "open field",
+    "visibility": "clear",
+    "pose": "unknown",
+    "imageQuality": "sharp",
+    "falsePositiveType": "warm_ground",
+    "notPersonReason": "Candidate box contains no thermal heat or human shape; likely warm ground or rock.",
+    "summary": "Candidate box shows no thermal heat or human geometry; isolated with high thermal isolation score but zero thermal fill; likely warm ground. thermal_priority=0; thermal_uniqueness=0; thermal_isolation=92.",
+    "investigationMatch": false,
+    "investigationConfidence": 0.1,
+    "investigationReason": "No visible thermal heat or human shape in candidate; no SAR-relevant clues found in detection zone or full-frame context.",
+    "cropAnalysis": {
+      "helpful": true,
+      "confidence": 0.9,
+      "summary": "Detection zone crop shows no thermal heat or human shape; candidate box empty of thermal signature."
+    },
+    "contextAnalysis": {
+      "helpful": true,
+      "confidence": 0.8,
+      "summary": "Full-frame sequence shows no thermal heat or human presence near candidate; terrain is open field with rocks and grass; no movement or thermal anomaly detected."
+    },
+    "primaryEvidenceSource": "detection_zone",
+    "cropContribution": 0.7,
+    "contextContribution": 0.3,
+    "bodyPositionClassification": "unknown",
+    "bodyPositionConfidence": 0.0,
+    "bodyPositionReason": "No thermal heat or human shape visible to classify body position."
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "responseType": "investigation-ai",
+  "createdAtUtc": "2026-07-27T01:05:40Z",
+  "model": "gpt-4.1-mini-2025-04-14",
+  "result": {
+    "person": {
+      "state": "AiNotPerson",
+      "confidence": 0.95,
+      "reason": "No visible human body parts or clothing; candidate is a small red object on terrain"
+    },
+    "fabric": {
+      "state": "AiNotFabric",
+      "confidence": 0.9,
+      "reason": "No visible fabric or human-made fabric-like material"
+    },
+    "anomaly": {
+      "state": "AiAnomaly",
+      "confidence": 0.6,
+      "reason": "Small bright red object is visually out-of-place on natural terrain"
+    },
+    "colors": [
+      "green",
+      "brown",
+      "red",
+      "gray"
+    ],
+    "primaryColor": "green",
+    "objectType": "unknown",
+    "sarRelevance": "medium",
+    "environment": "open field",
+    "visibility": "clear",
+    "pose": "unknown",
+    "imageQuality": "sharp",
+    "falsePositiveType": "none",
+    "notPersonReason": "Candidate is a small red object on natural terrain, no human features",
+    "possibleEvidence": true,
+    "evidenceType": "unknown",
+    "evidenceConfidence": 0.6,
+    "recommendedForReview": true,
+    "summary": "Small bright red object on natural terrain, no person or fabric visible but potential SAR anomaly",
+    "investigationMatch": false,
+    "investigationConfidence": 0.3,
+    "investigationReason": "No clear person or fabric detected; small red object may warrant review but insufficient evidence for SAR match",
+    "cropAnalysis": {
+      "helpful": true,
+      "confidence": 0.7,
+      "summary": "Crop shows a small bright red object on natural terrain with no visible person or fabric"
+    },
+    "contextAnalysis": {
+      "helpful": true,
+      "confidence": 0.6,
+      "summary": "Full frames show consistent small red object on open field terrain with no movement or human features"
+    },
+    "primaryEvidenceSource": "detection_zone",
+    "cropContribution": 0.7,
+    "contextContribution": 0.3,
+    "bodyPositionClassification": "unknown",
+    "bodyPositionConfidence": 0.0,
+    "bodyPositionReason": "No visible human shape or heat distribution"
+  }
+}

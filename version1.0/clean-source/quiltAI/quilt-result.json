@@ -1,0 +1,153 @@
+{
+  "responseType": "quilt-ai",
+  "createdAtUtc": "2026-07-26T21:46:09Z",
+  "model": "gpt-4.1-mini-2025-04-14",
+  "result": {
+    "results": [
+      {
+        "grid": "A01",
+        "eventId": 1501,
+        "decision": "reject",
+        "reason": "Dense tree canopy, no human or gear visible"
+      },
+      {
+        "grid": "A02",
+        "eventId": 1489,
+        "decision": "reject",
+        "reason": "Trees with no signs of human presence"
+      },
+      {
+        "grid": "A03",
+        "eventId": 1477,
+        "decision": "reject",
+        "reason": "Forest and terrain, no SAR relevant features"
+      },
+      {
+        "grid": "A04",
+        "eventId": 1465,
+        "decision": "reject",
+        "reason": "Tree covered hillside, no human or gear"
+      },
+      {
+        "grid": "A05",
+        "eventId": 1466,
+        "decision": "reject",
+        "reason": "Sparse trees and ground, no SAR clues"
+      },
+      {
+        "grid": "A06",
+        "eventId": 1467,
+        "decision": "reject",
+        "reason": "Flat terrain with trees, no SAR object"
+      },
+      {
+        "grid": "B01",
+        "eventId": 1453,
+        "decision": "reject",
+        "reason": "Tree cluster, no visible human elements"
+      },
+      {
+        "grid": "B02",
+        "eventId": 1454,
+        "decision": "reject",
+        "reason": "Tree and shadow, no sign of people or gear"
+      },
+      {
+        "grid": "B03",
+        "eventId": 1455,
+        "decision": "reject",
+        "reason": "Trees and terrain, no SAR findings"
+      },
+      {
+        "grid": "B04",
+        "eventId": 1441,
+        "decision": "reject",
+        "reason": "Rock and tree mix, no human presence"
+      },
+      {
+        "grid": "B05",
+        "eventId": 1442,
+        "decision": "reject",
+        "reason": "Forest shadows and rocks only"
+      },
+      {
+        "grid": "B06",
+        "eventId": 1443,
+        "decision": "reject",
+        "reason": "Rocky terrain, no clothing or gear"
+      },
+      {
+        "grid": "C01",
+        "eventId": 1444,
+        "decision": "reject",
+        "reason": "Dense trees, no human features"
+      },
+      {
+        "grid": "C02",
+        "eventId": 1429,
+        "decision": "reject",
+        "reason": "Tree canopy and branches, no SAR items"
+      },
+      {
+        "grid": "C03",
+        "eventId": 1417,
+        "decision": "reject",
+        "reason": "Trees and shadows only"
+      },
+      {
+        "grid": "C04",
+        "eventId": 1418,
+        "decision": "reject",
+        "reason": "Tree branches and terrain, no gear"
+      },
+      {
+        "grid": "C05",
+        "eventId": 1419,
+        "decision": "reject",
+        "reason": "Forest environment with no human sign"
+      },
+      {
+        "grid": "C06",
+        "eventId": 1420,
+        "decision": "reject",
+        "reason": "Tree coverage, no SAR anomaly"
+      },
+      {
+        "grid": "D01",
+        "eventId": 1405,
+        "decision": "reject",
+        "reason": "Rocky ground and scattered shrubs"
+      },
+      {
+        "grid": "D02",
+        "eventId": 1406,
+        "decision": "reject",
+        "reason": "Sparse trees on open terrain, no gear"
+      },
+      {
+        "grid": "D03",
+        "eventId": 1407,
+        "decision": "reject",
+        "reason": "Open ground with vegetation, no objects"
+      },
+      {
+        "grid": "D04",
+        "eventId": 1369,
+        "decision": "reject",
+        "reason": "Sparse tree and ground, no human items"
+      },
+      {
+        "grid": "D05",
+        "eventId": 1357,
+        "decision": "reject",
+        "reason": "Open shrubland and rocks, no SAR object"
+      },
+      {
+        "grid": "D06",
+        "eventId": 1358,
+        "decision": "reject",
+        "reason": "Shrubland with no visible person or gear"
+      }
+    ]
+  }
+}

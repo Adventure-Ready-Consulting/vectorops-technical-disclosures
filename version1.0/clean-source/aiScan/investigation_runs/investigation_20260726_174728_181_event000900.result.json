@@ -1,0 +1,73 @@
+{
+  "responseType": "investigation-ai",
+  "createdAtUtc": "2026-07-26T23:47:08Z",
+  "model": "gpt-4.1-mini-2025-04-14",
+  "result": {
+    "person": {
+      "state": "AiNotPerson",
+      "confidence": 0.95,
+      "reason": "No visible human body parts or clothing; candidate is a small red object on natural terrain"
+    },
+    "fabric": {
+      "state": "AiNotFabric",
+      "confidence": 0.9,
+      "reason": "No visible fabric or human-made fabric-like material in the candidate crop"
+    },
+    "anomaly": {
+      "state": "AiAnomaly",
+      "confidence": 0.7,
+      "reason": "Small bright red object is visually out-of-place against natural terrain and may warrant review"
+    },
+    "colors": [
+      "green",
+      "brown",
+      "red",
+      "gray"
+    ],
+    "primaryColor": "green",
+    "objectType": "unknown",
+    "sarRelevance": "medium",
+    "environment": "open field",
+    "visibility": "clear",
+    "pose": "unknown",
+    "imageQuality": "sharp",
+    "falsePositiveType": "none",
+    "notPersonReason": "Candidate is a small red object on natural terrain, no human features visible",
+    "possibleEvidence": true,
+    "evidenceType": "unknown",
+    "evidenceConfidence": 0.6,
+    "recommendedForReview": true,
+    "summary": "Small bright red object on natural terrain with no visible human features, possible SAR evidence",
+    "investigationMatch": true,
+    "investigationConfidence": 0.6,
+    "investigationReason": "Bright red object is out-of-place and persistent in multiple frames, no person visible but possible SAR clue",
+    "cropAnalysis": {
+      "helpful": true,
+      "confidence": 0.7,
+      "summary": "Crop shows a small bright red object on natural terrain, no human or fabric visible"
+    },
+    "contextAnalysis": {
+      "helpful": true,
+      "confidence": 0.6,
+      "summary": "Full frames show a persistent small red object in open field terrain, no movement or human presence detected"
+    },
+    "primaryEvidenceSource": "both",
+    "cropContribution": 0.6,
+    "contextContribution": 0.4,
+    "bodyPositionClassification": "unknown",
+    "bodyPositionConfidence": 0.0,
+    "bodyPositionReason": "No visible human shape or posture in crop or full frames",
+    "investigationRegion": {
+      "found": true,
+      "label": "unknown object",
+      "confidence": 0.6,
+      "xMin": 480,
+      "yMin": 580,
+      "xMax": 510,
+      "yMax": 610,
+      "usesOriginalDetection": true,
+      "originalDetectionReason": "Original detection matches the small bright red object visible in the detection zone crop and full frames",
+      "reason": "Small bright red object persistent in detection zone, no better candidate found"
+    }
+  }
+}

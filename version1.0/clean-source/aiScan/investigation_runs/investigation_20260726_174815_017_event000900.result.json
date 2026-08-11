@@ -1,0 +1,73 @@
+{
+  "responseType": "investigation-ai",
+  "createdAtUtc": "2026-07-26T23:47:57Z",
+  "model": "gpt-4.1-mini-2025-04-14",
+  "result": {
+    "person": {
+      "state": "AiNotPerson",
+      "confidence": 0.95,
+      "reason": "No visible human body parts or clothing; candidate is a small red object on terrain"
+    },
+    "fabric": {
+      "state": "AiNotFabric",
+      "confidence": 0.9,
+      "reason": "No visible fabric or gear; red object is too small and isolated to confirm as fabric"
+    },
+    "anomaly": {
+      "state": "AiAnomaly",
+      "confidence": 0.7,
+      "reason": "Small isolated bright red object on natural terrain, visually out-of-place"
+    },
+    "colors": [
+      "green",
+      "brown",
+      "red",
+      "gray"
+    ],
+    "primaryColor": "green",
+    "objectType": "unknown",
+    "sarRelevance": "medium",
+    "environment": "open field",
+    "visibility": "clear",
+    "pose": "unknown",
+    "imageQuality": "sharp",
+    "falsePositiveType": "none",
+    "notPersonReason": "small isolated red object on natural terrain, no human features",
+    "possibleEvidence": true,
+    "evidenceType": "unknown",
+    "evidenceConfidence": 0.5,
+    "recommendedForReview": true,
+    "summary": "Small isolated bright red object on natural terrain, no visible person but possible SAR clue",
+    "investigationMatch": true,
+    "investigationConfidence": 0.6,
+    "investigationReason": "Bright red object is unusual and out-of-place in natural terrain, merits human review",
+    "cropAnalysis": {
+      "helpful": true,
+      "confidence": 0.6,
+      "summary": "Crop shows small red object on green terrain, no visible person or fabric"
+    },
+    "contextAnalysis": {
+      "helpful": true,
+      "confidence": 0.6,
+      "summary": "Full frames confirm persistent small red object on open field terrain, no movement or human features"
+    },
+    "primaryEvidenceSource": "both",
+    "cropContribution": 0.5,
+    "contextContribution": 0.5,
+    "bodyPositionClassification": "unknown",
+    "bodyPositionConfidence": 0.0,
+    "bodyPositionReason": "No visible human shape or posture detected",
+    "investigationRegion": {
+      "found": true,
+      "label": "possible SAR clue",
+      "confidence": 0.6,
+      "xMin": 430,
+      "yMin": 540,
+      "xMax": 460,
+      "yMax": 570,
+      "usesOriginalDetection": false,
+      "originalDetectionReason": "Original candidate was a small red object on terrain, no person detected",
+      "reason": "Tightly enclosing the small bright red object that is the strongest SAR clue"
+    }
+  }
+}

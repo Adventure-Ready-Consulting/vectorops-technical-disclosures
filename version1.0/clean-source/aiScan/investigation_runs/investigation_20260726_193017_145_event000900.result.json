@@ -1,0 +1,73 @@
+{
+  "responseType": "investigation-ai",
+  "createdAtUtc": "2026-07-27T01:29:43Z",
+  "model": "gpt-4.1-mini-2025-04-14",
+  "result": {
+    "person": {
+      "state": "AiNotPerson",
+      "confidence": 0.95,
+      "reason": "No visible human body parts or clothing in the crop; candidate is a small red object on terrain"
+    },
+    "fabric": {
+      "state": "AiNotFabric",
+      "confidence": 0.9,
+      "reason": "No visible fabric or gear; red object too small and isolated to confirm as fabric"
+    },
+    "anomaly": {
+      "state": "AiAnomaly",
+      "confidence": 0.7,
+      "reason": "Small bright red object is visually out-of-place on natural terrain and may warrant review"
+    },
+    "colors": [
+      "green",
+      "brown",
+      "gray",
+      "red"
+    ],
+    "primaryColor": "green",
+    "objectType": "unknown",
+    "sarRelevance": "medium",
+    "environment": "open field",
+    "visibility": "clear",
+    "pose": "unknown",
+    "imageQuality": "sharp",
+    "falsePositiveType": "none",
+    "notPersonReason": "Candidate is a small isolated red object on natural terrain, no human features visible",
+    "possibleEvidence": true,
+    "evidenceType": "unknown",
+    "evidenceConfidence": 0.6,
+    "recommendedForReview": true,
+    "summary": "Small isolated red object on natural terrain may be SAR-relevant anomaly but no person or fabric visible",
+    "investigationMatch": true,
+    "investigationConfidence": 0.6,
+    "investigationReason": "Small bright red object in crop and full frames is unusual in natural terrain and may be human-made or gear; no clear person detected but warrants review",
+    "cropAnalysis": {
+      "helpful": true,
+      "confidence": 0.7,
+      "summary": "Crop shows small bright red object on natural terrain, no person or fabric visible"
+    },
+    "contextAnalysis": {
+      "helpful": true,
+      "confidence": 0.6,
+      "summary": "Full frames confirm persistent small red object in open field environment, no movement or human shape detected"
+    },
+    "primaryEvidenceSource": "both",
+    "cropContribution": 0.5,
+    "contextContribution": 0.5,
+    "bodyPositionClassification": "unknown",
+    "bodyPositionConfidence": 0.0,
+    "bodyPositionReason": "No visible human shape or posture in crop or full frames",
+    "investigationRegion": {
+      "found": true,
+      "label": "anomaly",
+      "confidence": 0.7,
+      "xMin": 480,
+      "yMin": 620,
+      "xMax": 500,
+      "yMax": 640,
+      "usesOriginalDetection": false,
+      "originalDetectionReason": "Original candidate was a small red object on natural terrain without human features",
+      "reason": "Small bright red object outside original detection box is the strongest SAR clue"
+    }
+  }
+}

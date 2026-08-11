@@ -1,0 +1,73 @@
+{
+  "responseType": "investigation-ai",
+  "createdAtUtc": "2026-08-05T18:36:59Z",
+  "model": "gpt-4.1-mini-2025-04-14",
+  "result": {
+    "person": {
+      "state": "AiNotPerson",
+      "confidence": 0.95,
+      "reason": "No visible human body parts or clothing; candidate is a small red object on terrain"
+    },
+    "fabric": {
+      "state": "AiNotFabric",
+      "confidence": 0.9,
+      "reason": "No visible fabric or gear; red object too small and isolated to confirm fabric"
+    },
+    "anomaly": {
+      "state": "AiAnomaly",
+      "confidence": 0.7,
+      "reason": "Small bright red object is visually out-of-place on natural terrain and may warrant review"
+    },
+    "colors": [
+      "green",
+      "brown",
+      "gray",
+      "red"
+    ],
+    "primaryColor": "green",
+    "objectType": "unknown",
+    "sarRelevance": "medium",
+    "environment": "open field",
+    "visibility": "clear",
+    "pose": "unknown",
+    "imageQuality": "sharp",
+    "falsePositiveType": "none",
+    "notPersonReason": "small isolated red object on natural terrain, no human features",
+    "possibleEvidence": true,
+    "evidenceType": "unknown",
+    "evidenceConfidence": 0.6,
+    "recommendedForReview": true,
+    "summary": "Small isolated red object on natural terrain may be SAR-relevant anomaly but no clear person or fabric visible",
+    "investigationMatch": true,
+    "investigationConfidence": 0.6,
+    "investigationReason": "Bright red object visible in full-frame context is unusual and may indicate human presence or gear; no clear person detected",
+    "cropAnalysis": {
+      "helpful": true,
+      "confidence": 0.7,
+      "summary": "Crop shows small red object on mossy terrain; no person or fabric visible"
+    },
+    "contextAnalysis": {
+      "helpful": true,
+      "confidence": 0.6,
+      "summary": "Full frames show persistent small red object in open field with natural terrain and no visible human or fabric"
+    },
+    "primaryEvidenceSource": "both",
+    "cropContribution": 0.4,
+    "contextContribution": 0.6,
+    "bodyPositionClassification": "unknown",
+    "bodyPositionConfidence": 0.0,
+    "bodyPositionReason": "No visible human shape or posture detected",
+    "investigationRegion": {
+      "found": true,
+      "label": "red anomaly",
+      "confidence": 0.6,
+      "xMin": 760,
+      "yMin": 140,
+      "xMax": 780,
+      "yMax": 160,
+      "usesOriginalDetection": false,
+      "originalDetectionReason": "Original candidate was a small red object on terrain without human features",
+      "reason": "Tightly encloses the small bright red object visible in full-frame context"
+    }
+  }
+}

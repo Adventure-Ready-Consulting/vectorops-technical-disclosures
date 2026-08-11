@@ -1,0 +1,61 @@
+{
+  "responseType": "investigation-ai",
+  "createdAtUtc": "2026-08-05T18:36:07Z",
+  "model": "gpt-4.1-mini-2025-04-14",
+  "result": {
+    "person": {
+      "state": "AiNotPerson",
+      "confidence": 0.95,
+      "reason": "No visible human body parts or clothing; candidate is a small red object on natural terrain"
+    },
+    "fabric": {
+      "state": "AiNotFabric",
+      "confidence": 0.9,
+      "reason": "No visible fabric or human-made fabric-like material in the crop"
+    },
+    "anomaly": {
+      "state": "AiAnomaly",
+      "confidence": 0.6,
+      "reason": "Small bright red object on natural terrain, visually out-of-place and possibly human-made"
+    },
+    "colors": [
+      "green",
+      "brown",
+      "red",
+      "gray"
+    ],
+    "primaryColor": "green",
+    "objectType": "unknown",
+    "sarRelevance": "medium",
+    "environment": "rocks",
+    "visibility": "clear",
+    "pose": "unknown",
+    "imageQuality": "sharp",
+    "falsePositiveType": "rock",
+    "notPersonReason": "Candidate is a small red object on natural terrain, no human features visible",
+    "possibleEvidence": true,
+    "evidenceType": "unknown",
+    "evidenceConfidence": 0.6,
+    "recommendedForReview": true,
+    "summary": "Small bright red object on rocky terrain, no visible person or fabric but possible SAR evidence",
+    "investigationMatch": true,
+    "investigationConfidence": 0.6,
+    "investigationReason": "Bright red object is out-of-place and may indicate human presence; no person visible",
+    "cropAnalysis": {
+      "helpful": true,
+      "confidence": 0.7,
+      "summary": "Crop shows a small bright red object on rocky terrain, no person or fabric visible"
+    },
+    "contextAnalysis": {
+      "helpful": true,
+      "confidence": 0.8,
+      "summary": "Full frames show persistent small red object in rocky terrain, no movement or person detected"
+    },
+    "primaryEvidenceSource": "both",
+    "cropContribution": 0.4,
+    "contextContribution": 0.6,
+    "bodyPositionClassification": "unknown",
+    "bodyPositionConfidence": 0.0,
+    "bodyPositionReason": "No visible person or body shape to classify"
+  }
+}
