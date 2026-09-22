@@ -34,7 +34,6 @@ Authoritative versions are published through numbered GitHub Releases.
 
 | Version | Title | Publication Date | Release |
 |---|---|---|---|
-| 1.0 | VectorOPS Technical Disclosure | See Release | [Technical Disclosure 1.0](https://github.com/Adventure-Ready-Consulting/vectorops-technical-disclosures/releases/tag/disclosure-v1.0) |
 | 1.0.1 | VectorOPS Technical Disclosure | September 21, 2026 | [Technical Disclosure 1.0.1](https://github.com/Adventure-Ready-Consulting/vectorops-technical-disclosures/releases/tag/disclosure-v1.0.1) |
 
 Each release may include:
@@ -46,7 +45,7 @@ Each release may include:
 - A SHA-256 checksum file
 - Release notes identifying newly disclosed material
 
-Later disclosure releases supplement earlier disclosures. They do not replace or alter the content or publication date of an earlier release.
+Later disclosure releases supplement earlier published disclosures. They do not replace or alter the content or publication date of an earlier published release.
 
 ## Current VectorOPS Production Release
 
@@ -93,7 +92,7 @@ For example:
 - VectorOPS 1.0.1 software release → VectorOPS Technical Disclosure 1.0.1
 - A future VectorOPS 1.1.0 release may correspond with VectorOPS Technical Disclosure 1.1.0
 
-A disclosure version may incorporate previously published material together with newly disclosed or updated technical material.
+A disclosure version may incorporate previously developed material together with newly disclosed or updated technical material.
 
 Previously published disclosure releases remain part of the historical record and are not replaced by later versions.
 
